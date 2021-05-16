@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useLocalStorage } from '../utils/hooks/useLocalStorage'
-import { Validator } from '@yup/validation'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 
@@ -42,9 +41,7 @@ export const Login = () => {
     })
   }
 
-  const formHook = useForm({
-    resolver: yupResolver(validateLogin),
-  })
+  const formHook = useForm()
 
   return loading ? (
     <EdaLoader />
