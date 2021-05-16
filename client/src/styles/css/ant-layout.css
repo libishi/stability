@@ -1,0 +1,82 @@
+.logo {
+	cursor: pointer;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	animation: LOGO 2s linear;
+}
+
+.logo img {
+	transition: width var(--speed) ease;
+}
+
+.ant-avatar > img {
+	object-fit: initial;
+}
+
+.layout-header {
+	height: 55px;
+	padding: 0 10px;
+	align-items: center;
+	align-content: center;
+	z-index: 1;
+	background-color: #fff;
+}
+/* background: #001529; */
+
+.layout-sider {
+	background-color: #fff;
+	overflow: auto;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+}
+
+.layout-sider-menu {
+	height: 100%;
+	width: 100%;
+
+	animation: SIDER 1s linear;
+}
+
+.ant-layout-sider-trigger {
+	color: black;
+	background: #001529;
+	border: solid 2px;
+}
+
+section aside svg {
+	fill: var(--theme-color);
+}
+
+.layout-content {
+	width: 100%;
+	margin: 20px auto;
+	padding: 5px 25px;
+}
+
+.footer-container {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	height: 20px;
+}
+
+.layout-footer {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	font-size: 15px;
+}
+
+/* .mediaz {
+	@media print {
+		html,
+		body {
+			height: initial !important;
+			overflow: initial !important;
+		}
+	}
+} */

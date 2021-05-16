@@ -1,0 +1,20 @@
+{
+	"name": "@yup/validation",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"client": "cd ~/Development/CompanyProfile/antd-client && npm i file:../yup-validation",
+		"server": "cd ~/Development/CompanyProfile/server && npm i file:../yup-validation"
+	},
+	"dependencies": {
+		"yup": "^0.29.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.11.6",
+		"@babel/node": "^7.10.5",
+		"@babel/preset-env": "^7.11.5",
+		"@babel/register": "^7.11.5",
+		"babel-node": "0.0.1-security"
+	}
+}

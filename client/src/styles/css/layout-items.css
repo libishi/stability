@@ -1,0 +1,159 @@
+.particles {
+	position: absolute;
+	margin: 0 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	z-index: 0;
+}
+
+.NavStyle {
+	padding: 0 20px;
+	margin: 0 40px 0 auto;
+
+	border-radius: 40px;
+	z-index: 0;
+	box-shadow: var(--box-shadow);
+}
+
+.spinner-screen-center {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 30px 50px;
+	margin: 250px;
+}
+
+.backTopStyle {
+	height: 40px;
+	width: 40px;
+	margin-right: 150px;
+	line-height: 40px;
+	border-radius: 50%;
+	background-color: var(--theme-color);
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	box-shadow: 3px 4px 15px 3px rgba(167, 167, 167, 0.904);
+}
+
+.backTopStyle:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s ease-in-out;
+}
+
+.centerHundredStyle {
+	margin: 15px 15px;
+}
+
+.centerFiftyStyle {
+	margin: 25px auto;
+}
+
+.footers {
+	position: fixed;
+	padding: 2px 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 25px;
+	background-color: var(--theme-color);
+	color: white;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	border-radius: var(--border-radius);
+	z-index: 4;
+}
+
+.centerThirtyStyle {
+	width: 40%;
+	margin: 25px 20%;
+}
+
+.center-transfer {
+	width: 50%;
+	margin: 25px 25%;
+}
+
+.center-content {
+	text-align: center;
+	color: #fff;
+}
+
+/* .center-content {
+	text-align: center;
+	margin: 30px auto 30px auto;
+	color: #fff;
+} */
+
+.emptyStyle {
+	margin: 65px auto;
+}
+
+.iframe-style {
+	width: 100%;
+	height: 35rem;
+}
+
+.iframe-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+}
+
+.profile {
+	margin: 1% 2%;
+}
+
+.center-half-input {
+	width: 90%;
+	margin: auto;
+	padding: 30px 40px;
+}
+
+.admin-buttons {
+	margin-bottom: 20px;
+	padding: 0 40px;
+}
+
+.radius-only {
+	border-radius: var(--border-radius);
+}
+
+.head-items {
+	float: right;
+	margin-right: 25px;
+	transition: all 0.3s ease;
+	/* animation: HEAD-ITEMS 1s ease; */
+}
+
+.head-items:nth-child(1) {
+	animation: HEAD-ITEMS 1s linear;
+}
+
+.head-items:nth-child(2) {
+	animation: HEAD-ITEMS 1.5s linear;
+}
+
+.head-items:nth-child(3) {
+	animation: HEAD-ITEMS 2s linear;
+}
+
+.head-items:hover {
+	transform: translateY(5%);
+	fill: var(--theme-color);
+	transition: all 0.3s ease;
+}
+
+.head-items button svg {
+	font-size: 21px;
+	fill: gray;
+}
+
+.head-items:hover,
+.head-items svg:hover {
+	fill: var(--theme-color);
+}

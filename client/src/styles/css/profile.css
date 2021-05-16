@@ -1,0 +1,39 @@
+.first-card {
+	padding: 5px 5px;
+	border-radius: var(--border-radius);
+	box-shadow: var(--box-shadow);
+	/* box-shadow: 0 14px 18px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.first-card-header {
+	margin-top: 20px;
+}
+
+.card-information {
+	margin: 25px 5px;
+	border-radius: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.affixes {
+	font-size: 30px;
+	float: right;
+	margin-right: 30px;
+	background-color: #1890ff;
+}
+
+.profile-card {
+	padding: 5px 5px;
+	border-radius: var(--border-radius);
+	position: fixed;
+	min-width: 300px;
+	width: max-content;
+	/* height: 10vh; */
+	/* left: 0; */
+	bottom: 15px;
+	/* box-shadow: var(--box-shadow); */
+	/* box-shadow: 0 14px 18px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
